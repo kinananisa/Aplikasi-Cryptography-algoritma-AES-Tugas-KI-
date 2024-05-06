@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kriptografi algoritma AES</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>AESCrypter</h1>
+      <label for="message">Masukkan Plaintext:</label>
+      <textarea id="message" rows="4" cols="50"></textarea><br />
+      <button onclick="encrypt()">Encrypt</button>
+      <button onclick="decrypt()">Decrypt</button><br />
+      <label for="encrypted">Encrypted Text:</label>
+      <textarea id="encrypted" rows="4" cols="50"></textarea><br />
+      <label for="decrypted">Decrypted Text:</label>
+      <textarea id="decrypted" rows="4" cols="50"></textarea><br />
+    </div>
+    <script src="aes.js"></script>
+  </body>
+</html>
